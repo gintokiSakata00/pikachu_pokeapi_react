@@ -1,0 +1,32 @@
+.container{
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+
+}
+
+.content{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  top: 100px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.image img{
+  position: relative;
+  height: 350px;
+  width: 350px;
+  top: -80px;
+}
+
+.content h2{
+  text-align: center;
+}
+
+.content p{
+  text-align: justify;
+  text-indent: 50px;
+  
+}
